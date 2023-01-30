@@ -1,0 +1,35 @@
+{
+  "name": "vault.in",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node" : "14.17.4"
+  },
+  "author": "Dipanshu Jain",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.6.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-session": "^1.17.2",
+    "helmet": "^4.6.0",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mysql": "^2.18.1",
+    "node": "^14.17.4",
+    "nodemon": "^2.0.12",
+    "qrcode": "^1.4.4",
+    "speakeasy": "^2.0.0",
+    "winston": "^3.3.3"
+  }
+}
