@@ -9,5 +9,5 @@ require('./startup/routes')(app, express);
 require('./startup/production')(app) ;
 
 app.listen(process.env.PORT || 8080, ()=> {
-    console.log('Listening on PORT: ${process.env.PORT}');
+    console.log(`Listening on PORT: ${process.env.PORT}`);
 });
