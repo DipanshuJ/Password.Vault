@@ -1,14 +1,14 @@
 # Introduction
-Vault.IN is A password manager, digital vault with group management based on WebCryptoAPI http://www.w3.org/TR/WebCryptoAPI/. Vault.IN remembers all your passwords for you to help keep account information safe.it allows you to share individual records with any other users.
+Password.Vault is A password manager, digital vault with group management based on WebCryptoAPI http://www.w3.org/TR/WebCryptoAPI/. Password.Vault remembers all your passwords for you to help keep account information safe.it allows you to share individual records with any other users.
 
-Vault.IN is based on Zero-Knowledge Architecture.
+Password.Vault is based on Zero-Knowledge Architecture.
 1) Data is encrypted & decrypted locally on the user's device(not on the server.)
 2) The server never stores your record in plaintext.
 3) The keys to encrypt & decrypt the record are derived on user's device from the user's Master password.
 4) Sharing of data uses Public Key Cryptography.
 
 # How it works
-details of how Vault.IN works.
+details of how Password.Vault works.
 initially, you need to register with a username and password and an RSA-OAEP key pair is generated. (for public-key cryptography.)
 
 then your private key is wrapped with an AES-GCM-256 instead of generating a random AES-GCM key we're gonna let you provide the password which 
